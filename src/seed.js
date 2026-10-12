@@ -12,42 +12,50 @@ const seedDatabase = async () => {
       {
         amount: 100,
         currency: "USD",
-        status: "pending"
+        status: "pending",
+        payment_method: "credit_card"
       },
       {
         amount: 250,
         currency: "EUR",
-        status: "pending"
+        status: "pending",
+        payment_method: "bank"
       },
       {
         amount: 50,
         currency: "PHP",
-        status: "completed"
+        status: "completed",
+        payment_method: "cash"
       },
       {
         amount: 500,
         currency: "USD",
-        status: "pending"
+        status: "pending",
+        payment_method: "credit_card"
       },
       {
         amount: 1250,
         currency: "PHP",
-        status: "pending"
+        status: "pending",
+        payment_method: "gcash"
       },
       {
         amount: 75,
         currency: "EUR",
-        status: "completed"
+        status: "completed",
+        payment_method: "bank"
       },
       {
         amount: 800,
         currency: "USD",
-        status: "pending"
+        status: "pending",
+        payment_method: "bank"
       },
       {
         amount: 320,
         currency: "EUR",
-        status: "pending"
+        status: "pending",
+        payment_method: "gcash"
       }
     ];
 

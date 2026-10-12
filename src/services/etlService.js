@@ -29,6 +29,7 @@ const runETL = async () => {
       transaction_id: transaction._id.toString(),
       currency: transaction.currency.toUpperCase(),
       amount: amount,
+      payment_method: transaction.payment_method,
       tax_amount: Number(taxAmount.toFixed(2)),
       total_value: Number(totalValue.toFixed(2)),
       processed_at: new Date().toISOString(),

@@ -1,56 +1,112 @@
 [
   {
-    "transaction_id": "6acb70e565acfc9f779918e6",
+    "transaction_id": "6accbbe34b36db4d963e77d3",
     "currency": "USD",
     "amount": 100,
+    "payment_method": "credit_card",
     "tax_amount": 12,
     "total_value": 112,
-    "processed_at": "2026-10-11T11:21:24.803Z",
+    "processed_at": "2026-10-12T11:03:10.712Z",
     "agent_id": "MONGOOSE_ETL_01"
   },
   {
-    "transaction_id": "6acb70e565acfc9f779918e7",
+    "transaction_id": "6accbbe34b36db4d963e77d4",
     "currency": "EUR",
     "amount": 250,
+    "payment_method": "bank",
     "tax_amount": 30,
     "total_value": 280,
-    "processed_at": "2026-10-11T11:21:24.804Z",
+    "processed_at": "2026-10-12T11:03:10.713Z",
     "agent_id": "MONGOOSE_ETL_01"
   },
   {
-    "transaction_id": "6acb70e565acfc9f779918e9",
+    "transaction_id": "6accbbe34b36db4d963e77d6",
     "currency": "USD",
     "amount": 500,
+    "payment_method": "credit_card",
     "tax_amount": 60,
     "total_value": 560,
-    "processed_at": "2026-10-11T11:21:24.804Z",
+    "processed_at": "2026-10-12T11:03:10.713Z",
     "agent_id": "MONGOOSE_ETL_01"
   },
   {
-    "transaction_id": "6acb70e565acfc9f779918ea",
+    "transaction_id": "6accbbe34b36db4d963e77d7",
     "currency": "PHP",
     "amount": 1250,
+    "payment_method": "gcash",
     "tax_amount": 150,
     "total_value": 1400,
-    "processed_at": "2026-10-11T11:21:24.804Z",
+    "processed_at": "2026-10-12T11:03:10.713Z",
     "agent_id": "MONGOOSE_ETL_01"
   },
   {
-    "transaction_id": "6acb70e565acfc9f779918ec",
+    "transaction_id": "6accbbe34b36db4d963e77d9",
     "currency": "USD",
     "amount": 800,
+    "payment_method": "bank",
     "tax_amount": 96,
     "total_value": 896,
-    "processed_at": "2026-10-11T11:21:24.804Z",
+    "processed_at": "2026-10-12T11:03:10.713Z",
     "agent_id": "MONGOOSE_ETL_01"
   },
   {
-    "transaction_id": "6acb70e565acfc9f779918ed",
+    "transaction_id": "6accbbe34b36db4d963e77da",
     "currency": "EUR",
     "amount": 320,
+    "payment_method": "gcash",
     "tax_amount": 38.4,
     "total_value": 358.4,
-    "processed_at": "2026-10-11T11:21:24.804Z",
+    "processed_at": "2026-10-12T11:03:10.713Z",
+    "agent_id": "MONGOOSE_ETL_01"
+  },
+  {
+    "transaction_id": "6accbc337889ab4076931b2f",
+    "currency": "PHP",
+    "amount": 1200,
+    "payment_method": "cash",
+    "tax_amount": 144,
+    "total_value": 1344,
+    "processed_at": "2026-10-12T11:03:10.713Z",
+    "agent_id": "MONGOOSE_ETL_01"
+  },
+  {
+    "transaction_id": "6accbc337889ab4076931b30",
+    "currency": "PHP",
+    "amount": 2000,
+    "payment_method": "credit_card",
+    "tax_amount": 240,
+    "total_value": 2240,
+    "processed_at": "2026-10-12T11:03:10.713Z",
+    "agent_id": "MONGOOSE_ETL_01"
+  },
+  {
+    "transaction_id": "6accbc337889ab4076931b31",
+    "currency": "PHP",
+    "amount": 1000,
+    "payment_method": "gcash",
+    "tax_amount": 120,
+    "total_value": 1120,
+    "processed_at": "2026-10-12T11:03:10.713Z",
+    "agent_id": "MONGOOSE_ETL_01"
+  },
+  {
+    "transaction_id": "6accbc337889ab4076931b2d",
+    "currency": "PHP",
+    "amount": 1750,
+    "payment_method": "gcash",
+    "tax_amount": 210,
+    "total_value": 1960,
+    "processed_at": "2026-10-12T11:03:10.713Z",
+    "agent_id": "MONGOOSE_ETL_01"
+  },
+  {
+    "transaction_id": "6accbc337889ab4076931b2e",
+    "currency": "PHP",
+    "amount": 2300,
+    "payment_method": "bank",
+    "tax_amount": 276,
+    "total_value": 2576,
+    "processed_at": "2026-10-12T11:03:10.713Z",
     "agent_id": "MONGOOSE_ETL_01"
   }
 ]

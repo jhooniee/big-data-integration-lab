@@ -21,6 +21,16 @@ const transactionSchema = new mongoose.Schema(
         "completed", 
         "cancelled"
       ]
+    },
+    payment_method: {
+      type: String,
+      required: true,
+      enum: [
+        "cash",
+        "bank",
+        "gcash",
+        "credit_card"
+      ]
     }
   },
   {
